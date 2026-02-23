@@ -3,7 +3,7 @@ const axios = require('axios'); // Nanti dipakai buat request ke Tripay
 const crypto = require('crypto'); // Nanti dipakai buat generate signature Tripay
 
 // Ganti dengan Token dari BotFather
-const token = 'GANTI_DENGAN_TOKEN_BOT_KAMU'; 
+const token = '8624244725:AAFQkmqz9EEd49xsOeXu62GOL5mGKV45CRE'; 
 const bot = new TelegramBot(token, { polling: true });
 
 // --- DATA DUMMY PRODUK (Nanti bisa diganti database) ---
